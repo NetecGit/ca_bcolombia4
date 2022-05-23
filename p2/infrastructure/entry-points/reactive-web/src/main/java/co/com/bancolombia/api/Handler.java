@@ -40,6 +40,16 @@ public class Handler {
     }
 
 
+    public Mono<ServerResponse> listenGETAll(ServerRequest serverRequest) {
+        LOGGER.info ("::: All Customers ::::");
+
+        return ServerResponse
+                .ok()
+                .contentType(MediaType.APPLICATION_JSON)
+                .body(useCase.getAllCustomers(),Customer.class);   // Programación funcional / notation fluent
+    }
+
+
     public Mono<ServerResponse> listenPOSTUseCase(ServerRequest serverRequest) {
         // Webflux Spring
         return serverRequest
