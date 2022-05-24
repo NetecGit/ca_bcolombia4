@@ -1,0 +1,10 @@
+
+Ellos : ¿Cuál es la diferencia entre Mono.just & Mono.creat?
+yo : Nose
+Ellos : Use flat() en lugar flatMap()
+yo : soy necia verdad?
+yo : ¿Que es un patrón?
+Ellos : Una solución a un problema recurrente de diseño de software
+yo yo yo Yo
+yo
+Yo
